@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addons><addon id="repository.kemix" name="Kemix Add-on repository" provider-name="kemix" version="1.0.0">
+	<extension name="kemix Repo" point="xbmc.addon.repository">
+		<checksum>https://raw.githubusercontent.com/mystikxkemix/kodi-mainrepo/master/addons.xml.md5</checksum>
+		<info compressed="false">https://raw.githubusercontent.com/mystikxkemix/kodi-mainrepo/master/addons.xml</info>
+		<datadir zip="true">https://raw.githubusercontent.com/mystikxkemix/kodi-mainrepo/master/</datadir>
+	</extension>
+
+	<extension point="xbmc.addon.metadata">
+		<language>en</language>
+		<summary lang="en">Kemix add-ons</summary>
+		<description lang="en">All Kemix add-ons</description>
+		<disclaimer lang="en" />
+		<platform>all</platform>
+		<source>https://github.com/mystikxkemix/kodi-mainrepo</source>
+	</extension>
+</addon></addons>
