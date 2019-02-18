@@ -1,49 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="repository.kemix" name="Kemix Add-on repository" provider-name="kemix" version="1.0.0">
-	<extension name="kemix Repo" point="xbmc.addon.repository">
-		<checksum>https://raw.githubusercontent.com/mystikxkemix/kodi-mainrepo/master/addons.xml.md5</checksum>
-		<info compressed="false">https://raw.githubusercontent.com/mystikxkemix/kodi-mainrepo/master/addons.xml</info>
-		<datadir zip="true">https://raw.githubusercontent.com/mystikxkemix/kodi-mainrepo/master/</datadir>
-	</extension>
-
-	<extension point="xbmc.addon.metadata">
-		<language>en</language>
-		<summary lang="en">Kemix add-ons</summary>
-		<description lang="en">All Kemix add-ons</description>
-		<disclaimer lang="en" />
-		<platform>all</platform>
-		<source>https://github.com/mystikxkemix/kodi-mainrepo</source>
-	</extension>
-</addon><addon id="skin.kemixosmc" name="Kemix OSMC" provider-name="kemix" version="18.0.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.kemixestuary" version="2.0.21" name="Kemix Estuary" provider-name="kemix">
 	<requires>
-		<import addon="xbmc.gui" version="5.14.0" />
+		<import addon="xbmc.gui" version="5.14.0"/>
 	</requires>
-	<extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1.00" point="xbmc.gui.skin">
-		<res aspect="16:9" default="true" folder="16x9" height="1080" width="1920" />
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">The default skin for OSMC</summary>
-		<description lang="en">Original skin: Andy Morton[CR]Original design: Simon Brunton[CR]Skinner: Julian Michel</description>
-		<news>OSMC Kodi v18 update[CR][CR][B]New[/B][CR]- add new v18 subtitle settings OSD during fullscreen video playback[CR]- add new games section to match v18 requirements[CR]- add games section[CR]- add new resolution select button/dialog in video player[CR]- add player icon to now playing dialog[CR]- add new dependency button in addon info dialog to match v18 requirements[CR]- new color options (color sets, background gradients, adjustable opacity)[CR]- add PVR channel number input dialog[CR]- add PVR timeshift status dialog[CR][CR][B]Improved[/B][CR]- adjust syntax, values, labels and infobools to match v18 requirements[CR]- adjust PVR section to match v18 requirements[CR]- highlighting color now adjusts according to text color[CR]- streamline OSD animations[CR]- add missing adjustable plot fonts[CR]- let favourites dialog behave like a normal window[CR][CR][B]Fixed[/B][CR]- show proper game widget title when not using skinshortcuts script[CR]- highlighting is now more consistent[CR]- fix current position/time remaining and current time/end time for PVR playback[CR]- hide deprecated previous/next channel buttons in PVR playback OSD[CR]- fix background of subtitle settings window[CR]- fix layout of PVR playback dialogs</news>
-	</extension>
-	<assets>
-		<icon>icon.png</icon>
-		<fanart>extras/backgrounds/Default.png</fanart>
-	</assets>
-</addon><addon id="skin.kemixestuary" name="Kemix Estuary" provider-name="kemix" version="2.0.21">
-	<requires>
-		<import addon="xbmc.gui" version="5.14.0" />
-	</requires>
-	<extension debugging="false" point="xbmc.gui.skin">
-		<res aspect="4:3" default="false" folder="xml" height="1440" width="1920" />
-		<res aspect="3:2" default="false" folder="xml" height="1280" width="1920" />
-		<res aspect="16:10" default="false" folder="xml" height="1200" width="1920" />
-		<res aspect="17:9" default="false" folder="xml" height="1080" width="2040" />
-		<res aspect="16:9" default="true" folder="xml" height="1080" width="1920" />
-		<res aspect="21:9" default="false" folder="xml" height="1080" width="2560" />
-		<res aspect="19.5:9" default="false" folder="xml" height="1080" width="2338" />
-		<res aspect="18:9" default="false" folder="xml" height="1080" width="2160" />
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
+		<res width="1920" height="1280" aspect="3:2" default="false" folder="xml" />
+		<res width="1920" height="1200" aspect="16:10" default="false" folder="xml" />
+		<res width="2040" height="1080" aspect="17:9" default="false" folder="xml" />
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+		<res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
+		<res width="2338" height="1080" aspect="19.5:9" default="false" folder="xml" />
+		<res width="2160" height="1080" aspect="18:9" default="false" folder="xml" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="af_ZA">Estuary oortreksel deur phil65. (Kodi se bestek oortreksel)</summary>
@@ -126,8 +94,7 @@
 		<description lang="pt_BR">Estuary é a skin padrão para o Kodi 17.0 e acima. Objetiva ser fácil para usuários que iniciam no Kodi pela primeira vez, facilitando aprendizagem de uso do mesmo.</description>
 		<description lang="pt_PT">O Estuary é o visual por omissão para o Kodi 17.0 e posteriores. Tenta ser simples para os utilizadores menos experientes do Kodi compreenderem e usarem.</description>
 		<description lang="ro_RO">Estuary este tema implicită pentru Kodi 17.0 și versiunile ulterioare. Încearcă să fie ușor de înțeles și folosit pentru utilizatorii care folosesc Kodi pentru prima dată.</description>
-		<description lang="ru_RU">Estuary — это стандартная обложка Kodi, начиная с версии 17.0.
-Простая и понятная в использовании для новых пользователей Kodi.</description>
+		<description lang="ru_RU">Estuary — это стандартная обложка Kodi, начиная с версии 17.0.&#10;Простая и понятная в использовании для новых пользователей Kodi.</description>
 		<description lang="sk_SK">Estuary je predvolený vzhľad pre Kodi 17.0 a vyššie. Pokúša sa byť pre prvotných používateľov Kodi jednoduchým na pochopenie a používanie.</description>
 		<description lang="sr_RS">Estuary је подразумевана маска за Kodi 17.0 и изнад. Покушава да буде једноставан за разумевање и коришћење новим корисницима Kodi-ја.</description>
 		<description lang="sr_RS@latin">Estuary je podrazumevana maska za Kodi 17.0 i iznad. Pokušava da bude jednostavan za razumevanje i korišćenje novim korisnicima Kodija.</description>
@@ -200,4 +167,4 @@
 			<screenshot>resources/screenshot-08.jpg</screenshot>
 		</assets>
 	</extension>
-</addon></addons>
+</addon>
